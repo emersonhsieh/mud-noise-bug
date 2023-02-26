@@ -7,4 +7,9 @@ library LibMath {
     uint32 current = component.has(entity) ? component.getValue(entity) : 0;
     component.set(entity, current + 1);
   }
+
+  function testPublic() public pure returns (uint32) {
+    uint32 test = 0;
+    return test;
+  }
 }

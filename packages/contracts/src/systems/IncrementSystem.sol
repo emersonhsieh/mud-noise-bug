@@ -15,7 +15,12 @@ contract IncrementSystem is System {
     uint256 entity = abi.decode(arguments, (uint256));
     CounterComponent c = CounterComponent(getAddressById(components, CounterComponentID));
 
-    int128 a = Perlin.noise2d(0, 0, 0, 0);
+    // // test calling perlin
+    // int128 a = Perlin.noise2d(0, 0, 0, 0);
+
+    // // test calling a public function, causes error
+    LibMath.testPublic();
+
     LibMath.increment(c, entity);
   }
 
