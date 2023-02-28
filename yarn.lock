@@ -2287,6 +2287,10 @@ for-each@^0.3.3:
   version "1.2.0"
   resolved "https://github.com/foundry-rs/forge-std.git#b4f121555729b3afb3c5ffccb62ff4b6e2818fd3"
 
+"forge-std@https://github.com/foundry-rs/forge-std.git#fd86115ed6aba8e234ee0fb86c12fe35eff0b2a0":
+  version "1.4.0"
+  resolved "https://github.com/foundry-rs/forge-std.git#fd86115ed6aba8e234ee0fb86c12fe35eff0b2a0"
+
 formdata-polyfill@^4.0.10:
   version "4.0.10"
   resolved "https://registry.yarnpkg.com/formdata-polyfill/-/formdata-polyfill-4.0.10.tgz#24807c31c9d402e002ab3d8c720144ceb8848423"
